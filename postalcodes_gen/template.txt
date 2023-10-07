@@ -1,0 +1,13 @@
+package main
+
+import "github.com/schild-media/go-german-postalcode/postalcodes"
+
+func init() {
+	PostalCodes.BuildIndex()
+}
+
+var PostalCodes = postalcodes.Table{
+	Codes: []postalcodes.PostalCode{
+{{.}}
+	},
+}
