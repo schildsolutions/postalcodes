@@ -2,7 +2,7 @@ package postalcodes_test
 
 import (
 	"errors"
-	"github.com/schild-media/go-german-postalcodes/postalcodes"
+	"github.com/schild-media/postalcodes"
 	"math"
 	"testing"
 )

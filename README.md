@@ -1,6 +1,6 @@
-# go-german-postalcodes
+# postalcodes 🇩🇪
 
-This Go library is build to make working with postal codes simply.
+This Go library is build to make working with *german* postal codes easy.
 
 ## Where do I get the data from?
 

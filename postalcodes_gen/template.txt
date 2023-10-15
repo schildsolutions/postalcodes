@@ -1,6 +1,6 @@
 package main
 
-import "github.com/schild-media/go-german-postalcodes/postalcodes"
+import "github.com/schild-media/postalcodes"
 
 func init() {
 	PostalCodes.BuildIndex()
