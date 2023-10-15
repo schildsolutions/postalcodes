@@ -20,11 +20,11 @@ when you use those data.
 Go to your work directory where a `postalcodes.generated.go` should be generated.
 Execute the postalcodes_gen tool and select the `txt` file from GeoNames.
 
-    go run github.com/schild-media/go-geerman-postalcodes/postalcodes_gen <filename>
+    go run github.com/schild-media/postalcodes/postalcodes_gen <filename>
 
 Example:
 
-    go run github.com/schild-media/go-geerman-postalcodes/postalcodes_gen DE.txt
+    go run github.com/schild-media/postalcodes/postalcodes_gen DE.txt
 
 This will generate the file `postalcodes.generated.go`, which contains an instance called `PostalCodes`.
 
